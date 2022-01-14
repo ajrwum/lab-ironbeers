@@ -5,3 +5,143 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+
+/* GENERAL SETTINGS */
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* NAV, FOOTER & MAIN CONTAINER */
+
+nav, footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background-color: #2081c3;
+  line-height: 3rem;
+  height: 7vh;
+  padding-left: 4rem;
+}
+
+nav a {
+  color: #f7f9f9;
+  text-decoration: none;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  display: flex;
+  background-color: #0a2c42;
+  color: #f7f9f9;
+  height: 7vh;
+  padding-left: 2rem;
+}
+
+.container {
+  height: 86vh;
+  padding: 10vh;
+  margin-bottom: 10vh;
+}
+
+/* HOME */
+
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+}
+
+#home img {
+  height: 40vh;
+  padding-top: 3rem;
+}
+
+#home a {
+  background-color: #2081c3;
+  border-radius: 5px;
+  color: #f7f9f9;
+  line-height: 3rem;
+  padding: 0 1rem;
+  text-decoration: none;
+}
+
+/* BEERS */
+
+h3 {
+  padding-bottom: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+
+.description {
+  font-size: 0.8rem;
+}
+
+.tagline {
+  color: #bfbfbf;
+  font-size: 0.8rem;
+  margin-top: 0;
+  padding-bottom: 0.2rem;
+}
+
+#all-beers {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+#all-beers .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 25vw;
+}
+
+#all-beers img {
+  height: 8rem;
+}
+
+#random-beer .card, #detailed-beer .card {
+  display: flex;
+  justify-content: flex-start;
+  gap: 4rem;
+}
+
+#random-beer img, #detailed-beer img {
+  height: 15rem;
+}
+
+#random-beer .description, #detailed-beer .description {
+  font-size: 1rem;
+}
+
+
+
+

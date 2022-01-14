@@ -1,0 +1,11 @@
+<div id="random-beer">
+  {{#each oneBeerArray}}
+  <div class="card">
+    {{> beerImage}}
+    <div id="info">
+      {{> beerBaseInfo}}
+      {{> beerMoreInfo}}
+    </div>
+  </div>
+  {{/each}}
+</div>
